@@ -49,11 +49,11 @@ define({
   //Theme defines the background color of the title area and tool dialog
   //Color defines the text color for the title and details. Note that
   //both these values must be specified as hex colors.
-  "customLayout": "rounded", // default, sidetools, menubar, rounded
+  "customLayout": "menubar", // default, sidetools, menubar, rounded
   "theme": "#105e78",
   "color": "#fff",
   "iconColor": "#fff",
-  "panelBackground": "#fff",
+  "panelBackground": "#000",
   "panelColor": "#000",
   "logo": null,
   "logolink": null,
