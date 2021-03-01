@@ -552,6 +552,7 @@ img {
 
 .bg {
   display: block;
+  background-color: #222;
 }
 
 .fc {
