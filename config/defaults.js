@@ -49,7 +49,7 @@ define({
   //Theme defines the background color of the title area and tool dialog
   //Color defines the text color for the title and details. Note that
   //both these values must be specified as hex colors.
-  "customLayout": "default", // default, sidetools, menubar, rounded
+  "customLayout": "menubar", // default, sidetools, menubar, rounded
   "theme": "#105e78",
   "color": "#fff",
   "iconColor": "#fff",
@@ -86,7 +86,7 @@ define({
     "toolbar": false
   }, {
     "name": "print",
-    "enabled": true,
+    "enabled": false,
     "legend": false,
     "layouts": false,
     "format": "pdf"
@@ -95,7 +95,7 @@ define({
     "enabled": true
   }, {
     "name": "share",
-    "enabled": true,
+    "enabled": false,
     "embed": false
   }],
   //Set the active tool on the toolbar.
