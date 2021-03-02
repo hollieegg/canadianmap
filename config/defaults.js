@@ -67,7 +67,7 @@ define({
     "enabled": false
   }, {
     "name": "layers",
-    "enabled": true,
+    "enabled": false,
     "sublayers": true,
     "legend": true,
     "opacityslider": true
